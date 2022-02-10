@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/react-color-picker/static/css/main.838aa1e7.chunk.css",
-    "main.js": "/react-color-picker/static/js/main.d6417304.chunk.js",
-    "main.js.map": "/react-color-picker/static/js/main.d6417304.chunk.js.map",
-    "runtime~main.js": "/react-color-picker/static/js/runtime~main.41a5ed0e.js",
-    "runtime~main.js.map": "/react-color-picker/static/js/runtime~main.41a5ed0e.js.map",
-    "static/js/2.ea490775.chunk.js": "/react-color-picker/static/js/2.ea490775.chunk.js",
-    "static/js/2.ea490775.chunk.js.map": "/react-color-picker/static/js/2.ea490775.chunk.js.map",
-    "static/js/3.4183067e.chunk.js": "/react-color-picker/static/js/3.4183067e.chunk.js",
-    "static/js/3.4183067e.chunk.js.map": "/react-color-picker/static/js/3.4183067e.chunk.js.map",
+    "main.css": "/react-color-picker/static/css/main.8f3c3f79.css",
+    "main.js": "/react-color-picker/static/js/main.7a28a825.js",
+    "static/js/787.bc387818.chunk.js": "/react-color-picker/static/js/787.bc387818.chunk.js",
+    "static/media/logo.svg": "/react-color-picker/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/react-color-picker/index.html",
-    "precache-manifest.656ff08e3bb4e651bcc09b9fc5eb4a73.js": "/react-color-picker/precache-manifest.656ff08e3bb4e651bcc09b9fc5eb4a73.js",
-    "service-worker.js": "/react-color-picker/service-worker.js",
-    "static/css/main.838aa1e7.chunk.css.map": "/react-color-picker/static/css/main.838aa1e7.chunk.css.map",
-    "static/media/logo.svg": "/react-color-picker/static/media/logo.06e73328.svg"
-  }
+    "main.8f3c3f79.css.map": "/react-color-picker/static/css/main.8f3c3f79.css.map",
+    "main.7a28a825.js.map": "/react-color-picker/static/js/main.7a28a825.js.map",
+    "787.bc387818.chunk.js.map": "/react-color-picker/static/js/787.bc387818.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f3c3f79.css",
+    "static/js/main.7a28a825.js"
+  ]
 }
