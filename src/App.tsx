@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ColorPicker, { ColorPickerButton } from './components/ColorPicker';
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
          view source
         </a>
       </header>
+      <div style={{ display:'flex', justifyContent:'center', padding:'5px' }}>
+        <ColorPicker />
+        <ColorPickerButton color="green"/>
+      </div>
     </div>
   );
 }
