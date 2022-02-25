@@ -283,7 +283,7 @@ const colorsList = {
 	ivory: '#FFFFF0',
 	white: '#FFFFFF',
 };
-type colorObject = {
+export type colorObject = {
 	r: number;
 	g: number;
 	b: number;
