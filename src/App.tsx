@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import ColorPicker, { ColorPalette, ColorPickerButton, colorPickerChangeResult, ColorPickerControl } from './components/ColorPicker';
+import ColorPicker, { colorPickerChangeResult } from './components/ColorPicker';
 
 function App() {
 	return (
@@ -13,18 +13,16 @@ function App() {
 					view source
 				</a>
 			</header>
-			<div style={{ display: 'flex', justifyContent: 'center', padding: '5px' }}>
-				<ColorPicker />
-				<ColorPickerButton color='green' />
-			</div>
-			<ColorPalette
+			<br />
+			<ColorPicker
 				color='red'
 				width={300}
 				height={150}
 				onChange={(e: colorPickerChangeResult) => {
-					console.log(e);
+					// console.log(e);
 					document.body.style.backgroundColor = e.color.hsla;
 				}}
+				favourites={['red', 'yellow', 'green', 'cyan', 'blue', 'magenta', 'pink', 'white', 'silver', 'gray', 'maroon', 'black']}
 			/>
 		</div>
 	);
